@@ -3,9 +3,12 @@ import os
 import glob
 from ba import BA_api
 
+# train: left 영상만을 이용
+# test: left/right 마지막 영상만을 이용
+
 regions = ["yeouido", "pangyo"]
 for region in regions:
-    f = open(region + "_L.csv", "w")
+    f = open(region + "_1.csv", "w")
     f.write("Label_L" + "," + "X(m)" + "," + "Y(m)" + "," + "Z(m)" + ","
             + "Yaw(deg)" + "," + "Pitch(deg)" + "," + "Roll(deg)" + ","
             + "Omega(deg)" + "," + "Phi(deg)" + "," + "Kappa(deg)" + ","
@@ -54,7 +57,7 @@ for region in regions:
         # 4. Align photos
         print("Align photos")
         ba_api = BA_api()
-        cam_L, eo_L, cam_R, eo_R = ba_api.alignphotos(images_to_process, region)
+        cam_L, eo_L, cam_R, eo_R = ba_api.alignphotos_1(images_to_process, region)
 
         if len(eo_L) == 0 or len(eo_R) == 0:
             f.write(query_L_label + "," + str(0) + "," + str(0) + "," + str(0) + ","
