@@ -1,0 +1,1067 @@
+<document version="1.5.0">
+  <chunk enabled="true" label="Merged Chunk">
+    <sensors next_id="4">
+      <sensor id="0" label="train_L" type="frame">
+        <resolution height="1032" width="1384" />
+        <property name="pixel_width" value="0.00645" />
+        <property name="pixel_height" value="0.00645" />
+        <property name="focal_length" value="8.25" />
+        <property name="fixed" value="true" />
+        <property name="layer_index" value="0" />
+        <bands>
+          <band label="Red" />
+          <band label="Green" />
+          <band label="Blue" />
+        </bands>
+        <data_type>uint8</data_type>
+        <calibration class="initial" type="frame">
+          <resolution height="1032" width="1384" />
+          <f>1278.2700476188</f>
+          <cx>-10.21222021</cx>
+          <cy>12.57474453</cy>
+          <k1>-0.177596091505403</k1>
+          <k2>0.156810007534974</k2>
+          <k3>-0.080579883779856</k3>
+          <p1>0.000396898514249003</p1>
+          <p2>-8.50563182421899e-05</p2>
+        </calibration>
+      </sensor>
+      <sensor id="1" label="train_R" type="frame">
+        <resolution height="1032" width="1384" />
+        <property name="pixel_width" value="0.00645" />
+        <property name="pixel_height" value="0.00645" />
+        <property name="focal_length" value="8.25" />
+        <property name="fixed" value="true" />
+        <property name="layer_index" value="0" />
+        <bands>
+          <band label="Red" />
+          <band label="Green" />
+          <band label="Blue" />
+        </bands>
+        <calibration class="initial" type="frame">
+          <resolution height="1032" width="1384" />
+          <f>1279.71039201197</f>
+          <cx>-6.272717931</cx>
+          <cy>-1.60870271</cy>
+          <k1>-0.184066204152112</k1>
+          <k2>0.204098997889525</k2>
+          <k3>-0.190930310380786</k3>
+          <p1>-0.000384022825200163</p1>
+          <p2>-7.83755478488317e-05</p2>
+        </calibration>
+      </sensor>
+      <sensor id="2" label="test_L" type="frame">
+        <resolution height="1032" width="1384" />
+        <property name="pixel_width" value="0.00645" />
+        <property name="pixel_height" value="0.00645" />
+        <property name="focal_length" value="8.25" />
+        <property name="layer_index" value="0" />
+        <bands>
+          <band label="Red" />
+          <band label="Green" />
+          <band label="Blue" />
+        </bands>
+        <data_type>uint8</data_type>
+      </sensor>
+      <sensor id="3" label="test_R" type="frame">
+        <resolution height="1032" width="1384" />
+        <property name="pixel_width" value="0.00645" />
+        <property name="pixel_height" value="0.00645" />
+        <property name="focal_length" value="8.25" />
+        <property name="layer_index" value="0" />
+        <bands>
+          <band label="Red" />
+          <band label="Green" />
+          <band label="Blue" />
+        </bands>
+        <data_type>uint8</data_type>
+      </sensor>
+    </sensors>
+    <cameras next_group_id="0" next_id="120">
+      <camera id="0" label="012740_L" sensor_id="0">
+        <reference enabled="true" pitch="89.65715332" roll="0.73124308" x="974.18663483" y="-294.63061606" yaw="-178.79089838" z="5.74023819" />
+      </camera>
+      <camera id="1" label="012740_R" sensor_id="1">
+        <reference enabled="true" pitch="90.05131424" roll="0.51567632" x="973.68696904" y="-294.6204389" yaw="-178.66322247" z="5.73342454" />
+      </camera>
+      <camera id="2" label="012741_L" sensor_id="0">
+        <reference enabled="true" pitch="89.65207217" roll="0.70442189" x="974.17406525" y="-295.47687036" yaw="-178.81572758" z="5.75379481" />
+      </camera>
+      <camera id="3" label="012741_R" sensor_id="1">
+        <reference enabled="true" pitch="90.04629308" roll="0.48884387" x="973.67439196" y="-295.46690962" yaw="-178.68807132" z="5.74721508" />
+      </camera>
+      <camera id="4" label="012742_L" sensor_id="0">
+        <reference enabled="true" pitch="89.64096603" roll="0.70885152" x="974.16160486" y="-296.33557509" yaw="-178.84054353" z="5.76734364" />
+      </camera>
+      <camera id="5" label="012742_R" sensor_id="1">
+        <reference enabled="true" pitch="90.03517754" roll="0.49324875" x="973.66192782" y="-296.32583071" yaw="-178.71292897" z="5.7607252" />
+      </camera>
+      <camera id="6" label="012743_L" sensor_id="0">
+        <reference enabled="true" pitch="89.68529056" roll="0.75221571" x="974.149439" y="-297.18550368" yaw="-178.86378228" z="5.78251744" />
+      </camera>
+      <camera id="7" label="012743_R" sensor_id="1">
+        <reference enabled="true" pitch="90.07940349" roll="0.53671161" x="973.64976319" y="-297.1759624" yaw="-178.73600009" z="5.77552103" />
+      </camera>
+      <camera id="8" label="012744_L" sensor_id="0">
+        <reference enabled="true" pitch="89.74702468" roll="0.84029858" x="974.1376617" y="-298.03384162" yaw="-178.89402532" z="5.79900458" />
+      </camera>
+      <camera id="9" label="012744_R" sensor_id="1">
+        <reference enabled="true" pitch="90.14093804" roll="0.62493206" x="973.63799225" y="-298.02456478" yaw="-178.766009" z="5.79124027" />
+      </camera>
+      <camera id="10" label="012745_L" sensor_id="0">
+        <reference enabled="true" pitch="89.79728999" roll="0.92999033" x="974.12684751" y="-298.86335467" yaw="-178.93490604" z="5.81593972" />
+      </camera>
+      <camera id="11" label="012745_R" sensor_id="1">
+        <reference enabled="true" pitch="90.19100009" roll="0.71473597" x="973.62718432" y="-298.85443496" yaw="-178.80669847" z="5.80739342" />
+      </camera>
+      <camera id="12" label="012746_L" sensor_id="0">
+        <reference enabled="true" pitch="89.82008918" roll="0.98175207" x="974.11664676" y="-299.70540926" yaw="-178.97759156" z="5.83300928" />
+      </camera>
+      <camera id="13" label="012746_R" sensor_id="1">
+        <reference enabled="true" pitch="90.21368209" roll="0.76654861" x="973.61698498" y="-299.69686212" yaw="-178.84929684" z="5.82401166" />
+      </camera>
+      <camera id="14" label="012747_L" sensor_id="0">
+        <reference enabled="true" pitch="89.81522749" roll="1.00185692" x="974.10721396" y="-300.53829161" yaw="-179.01927458" z="5.84919031" />
+      </camera>
+      <camera id="15" label="012747_R" sensor_id="1">
+        <reference enabled="true" pitch="90.20877567" roll="0.78664252" x="973.60754929" y="-300.530108" yaw="-178.89099751" z="5.8400173" />
+      </camera>
+      <camera id="16" label="012748_L" sensor_id="0">
+        <reference enabled="true" pitch="89.80157133" roll="1.05345744" x="974.09848961" y="-301.37952104" yaw="-179.07115811" z="5.86529265" />
+      </camera>
+      <camera id="17" label="012748_R" sensor_id="1">
+        <reference enabled="true" pitch="90.19500485" roll="0.83821234" x="973.5988262" y="-301.37178992" yaw="-178.9429307" z="5.85566949" />
+      </camera>
+      <camera id="18" label="012749_L" sensor_id="0">
+        <reference enabled="true" pitch="89.77611307" roll="1.12448007" x="974.09055494" y="-302.2143139" yaw="-179.12174556" z="5.88089844" />
+      </camera>
+      <camera id="19" label="012749_R" sensor_id="1">
+        <reference enabled="true" pitch="90.16938939" roll="0.90917785" x="973.59089721" y="-302.20702395" yaw="-178.99361141" z="5.87065569" />
+      </camera>
+      <camera id="20" label="012750_L" sensor_id="0">
+        <reference enabled="true" pitch="89.7368885" roll="1.17746483" x="974.0829502" y="-303.04396101" yaw="-179.16011172" z="5.89537916" />
+      </camera>
+      <camera id="21" label="012750_R" sensor_id="1">
+        <reference enabled="true" pitch="90.13004916" roll="0.96207482" x="973.5832974" y="-303.03700548" yaw="-179.03212307" z="5.88467404" />
+      </camera>
+      <camera id="22" label="012751_L" sensor_id="0">
+        <reference enabled="true" pitch="89.6406955" roll="1.23236095" x="974.07587772" y="-303.86364671" yaw="-179.19369148" z="5.90778455" />
+      </camera>
+      <camera id="23" label="012751_R" sensor_id="1">
+        <reference enabled="true" pitch="90.03374085" roll="1.01675628" x="973.57623144" y="-303.85698344" yaw="-179.06606257" z="5.89660005" />
+      </camera>
+      <camera id="24" label="012752_L" sensor_id="0">
+        <reference enabled="true" pitch="89.48803113" roll="1.2890544" x="974.06931282" y="-304.68891341" yaw="-179.22341289" z="5.91706286" />
+      </camera>
+      <camera id="25" label="012752_R" sensor_id="1">
+        <reference enabled="true" pitch="89.8809624" roll="1.07311037" x="973.56967449" y="-304.68250831" yaw="-179.09635672" z="5.90538295" />
+      </camera>
+      <camera id="26" label="012753_L" sensor_id="0">
+        <reference enabled="true" pitch="89.39720996" roll="1.2975173" x="974.06435471" y="-305.5139002" yaw="-179.24108932" z="5.92431892" />
+      </camera>
+      <camera id="27" label="012753_R" sensor_id="1">
+        <reference enabled="true" pitch="89.7901298" roll="1.08137217" x="973.56471618" y="-305.50764859" yaw="-179.11437531" z="5.91256462" />
+      </camera>
+      <camera id="28" label="012754_L" sensor_id="0">
+        <reference enabled="true" pitch="89.40956221" roll="1.311474" x="974.05946917" y="-306.33633456" yaw="-179.25197684" z="5.93282047" />
+      </camera>
+      <camera id="29" label="012754_R" sensor_id="1">
+        <reference enabled="true" pitch="89.80245017" roll="1.09535615" x="973.55983234" y="-306.33017802" yaw="-179.12521564" z="5.92094453" />
+      </camera>
+      <camera id="30" label="012755_L" sensor_id="0">
+        <reference enabled="true" pitch="89.51004715" roll="1.33366914" x="974.05453175" y="-307.15670002" yaw="-179.25766253" z="5.94410736" />
+      </camera>
+      <camera id="31" label="012755_R" sensor_id="1">
+        <reference enabled="true" pitch="89.90287764" roll="1.11777383" x="973.55489892" y="-307.15059388" yaw="-179.13052148" z="5.9320385" />
+      </camera>
+      <camera id="32" label="012756_L" sensor_id="0">
+        <reference enabled="true" pitch="89.71562764" roll="1.3710327" x="974.04933139" y="-307.98487926" yaw="-179.25819771" z="5.96052604" />
+      </camera>
+      <camera id="33" label="012756_R" sensor_id="1">
+        <reference enabled="true" pitch="90.10835763" roll="1.15559474" x="973.54970644" y="-307.97877945" yaw="-179.13028102" z="5.94813266" />
+      </camera>
+      <camera id="34" label="012757_L" sensor_id="0">
+        <reference enabled="true" pitch="89.82107799" roll="1.38810314" x="974.04394352" y="-308.79293614" yaw="-179.24452279" z="5.97704129" />
+      </camera>
+      <camera id="35" label="012757_R" sensor_id="1">
+        <reference enabled="true" pitch="90.21376074" roll="1.17290087" x="973.54432372" y="-308.78671794" yaw="-179.11620895" z="5.96449973" />
+      </camera>
+      <camera id="36" label="012758_L" sensor_id="0">
+        <reference enabled="true" pitch="89.84233058" roll="1.39198525" x="974.0382177" y="-309.60934022" yaw="-179.22583612" z="5.99286829" />
+      </camera>
+      <camera id="37" label="012758_R" sensor_id="1">
+        <reference enabled="true" pitch="90.2350028" roll="1.17683057" x="973.5386008" y="-309.60295924" yaw="-179.09744227" z="5.98029301" />
+      </camera>
+      <camera id="38" label="012759_L" sensor_id="0">
+        <reference enabled="true" pitch="89.78414395" roll="1.38443628" x="974.0322935" y="-310.41408267" yaw="-179.20395925" z="6.00604893" />
+      </camera>
+      <camera id="39" label="012759_R" sensor_id="1">
+        <reference enabled="true" pitch="90.1768381" roll="1.16915137" x="973.53267743" y="-310.40751047" yaw="-179.07578436" z="5.99353911" />
+      </camera>
+      <camera id="40" label="012760_L" sensor_id="0">
+        <reference enabled="true" pitch="89.72253833" roll="1.38288221" x="974.02589329" y="-311.24038909" yaw="-179.17882406" z="6.0183826" />
+      </camera>
+      <camera id="41" label="012760_R" sensor_id="1">
+        <reference enabled="true" pitch="90.11524126" roll="1.16745965" x="973.52627984" y="-311.23359723" yaw="-179.05088085" z="6.00588593" />
+      </camera>
+      <camera id="42" label="012761_L" sensor_id="0">
+        <reference enabled="true" pitch="89.7241242" roll="1.36982273" x="974.01932167" y="-312.05912184" yaw="-179.15762722" z="6.03153753" />
+      </camera>
+      <camera id="43" label="012761_R" sensor_id="1">
+        <reference enabled="true" pitch="90.11685617" roll="1.15440374" x="973.51970792" y="-312.05214512" yaw="-179.02967864" z="6.01915476" />
+      </camera>
+      <camera id="44" label="012762_L" sensor_id="0">
+        <reference enabled="true" pitch="89.73224595" roll="1.34786456" x="974.01250056" y="-312.87122369" yaw="-179.13471023" z="6.04519182" />
+      </camera>
+      <camera id="45" label="012762_R" sensor_id="1">
+        <reference enabled="true" pitch="90.12502628" roll="1.13246377" x="973.51288494" y="-312.86404712" yaw="-179.00673209" z="6.0330006" />
+      </camera>
+      <camera id="46" label="012763_L" sensor_id="0">
+        <reference enabled="true" pitch="89.68324411" roll="1.31735027" x="974.00525639" y="-313.67096547" yaw="-179.10315709" z="6.05716358" />
+      </camera>
+      <camera id="47" label="012763_R" sensor_id="1">
+        <reference enabled="true" pitch="90.07609662" roll="1.10184021" x="973.50563838" y="-313.66351329" yaw="-178.97536457" z="6.04523815" />
+      </camera>
+      <camera id="48" label="012764_L" sensor_id="0">
+        <reference enabled="true" pitch="89.57934638" roll="1.27990953" x="973.99794022" y="-314.47930588" yaw="-179.0817277" z="6.06671268" />
+      </camera>
+      <camera id="49" label="012764_R" sensor_id="1">
+        <reference enabled="true" pitch="89.97229067" roll="1.06416824" x="973.49831738" y="-314.47166593" yaw="-178.95432784" z="6.0551131" />
+      </camera>
+      <camera id="50" label="012765_L" sensor_id="0">
+        <reference enabled="true" pitch="89.53990263" roll="1.26910551" x="973.9902804" y="-315.28768707" yaw="-179.06093916" z="6.07636187" />
+      </camera>
+      <camera id="51" label="012765_R" sensor_id="1">
+        <reference enabled="true" pitch="89.93287406" roll="1.05327661" x="973.49065819" y="-315.2798655" yaw="-178.93368833" z="6.06485626" />
+      </camera>
+      <camera id="52" label="012766_L" sensor_id="0">
+        <reference enabled="true" pitch="89.59049226" roll="1.29663986" x="973.98207393" y="-316.09415943" yaw="-179.03981777" z="6.08808214" />
+      </camera>
+      <camera id="53" label="012766_R" sensor_id="1">
+        <reference enabled="true" pitch="89.98339844" roll="1.08092331" x="973.48246022" y="-316.08615417" yaw="-178.91237524" z="6.07633673" />
+      </camera>
+      <camera id="54" label="012767_L" sensor_id="0">
+        <reference enabled="true" pitch="89.77451876" roll="1.42201642" x="973.97244953" y="-316.8962794" yaw="-179.02611235" z="6.10179366" />
+      </camera>
+      <camera id="55" label="012767_R" sensor_id="1">
+        <reference enabled="true" pitch="90.16712967" roll="1.2067099" x="973.47286459" y="-316.88815648" yaw="-178.8979719" z="6.08895605" />
+      </camera>
+      <camera id="56" label="012768_L" sensor_id="0">
+        <reference enabled="true" pitch="89.88237928" roll="1.51704026" x="973.96301262" y="-317.68909044" yaw="-179.02176012" z="6.11596961" />
+      </camera>
+      <camera id="57" label="012768_R" sensor_id="1">
+        <reference enabled="true" pitch="90.27476738" roll="1.30197502" x="973.46345024" y="-317.68093076" yaw="-178.89320981" z="6.10230405" />
+      </camera>
+      <camera id="58" label="012769_L" sensor_id="0">
+        <reference enabled="true" pitch="89.88831776" roll="1.58440182" x="973.95353614" y="-318.49636426" yaw="-179.01984716" z="6.12899573" />
+      </camera>
+      <camera id="59" label="012769_R" sensor_id="1">
+        <reference enabled="true" pitch="90.2805541" roll="1.36934974" x="973.45399044" y="-318.48818823" yaw="-178.89127103" z="6.11474282" />
+      </camera>
+      <camera id="60" label="012770_L" sensor_id="0">
+        <reference enabled="true" pitch="89.71150458" roll="1.61120049" x="973.94408925" y="-319.30690201" yaw="-179.01236788" z="6.13614268" />
+      </camera>
+      <camera id="61" label="012770_R" sensor_id="1">
+        <reference enabled="true" pitch="90.10369864" roll="1.39575274" x="973.4445514" y="-319.29865955" yaw="-178.88445476" z="6.12165495" />
+      </camera>
+      <camera id="62" label="012771_L" sensor_id="0">
+        <reference enabled="true" pitch="89.58329851" roll="1.54271706" x="973.9353675" y="-320.10580829" yaw="-179.01730699" z="6.14120171" />
+      </camera>
+      <camera id="63" label="012771_R" sensor_id="1">
+        <reference enabled="true" pitch="89.9756579" roll="1.32698391" x="973.43581201" y="-320.09760762" yaw="-178.88988005" z="6.12731032" />
+      </camera>
+      <camera id="64" label="012772_L" sensor_id="0">
+        <reference enabled="true" pitch="89.524691" roll="1.43332091" x="973.92682599" y="-320.91241334" yaw="-179.02451491" z="6.14611819" />
+      </camera>
+      <camera id="65" label="012772_R" sensor_id="1">
+        <reference enabled="true" pitch="89.917299" roll="1.21745784" x="973.42724389" y="-320.90427464" yaw="-178.89731416" z="6.13318039" />
+      </camera>
+      <camera id="66" label="012773_L" sensor_id="0">
+        <reference enabled="true" pitch="89.53682374" roll="1.29630149" x="973.91845662" y="-321.71871444" yaw="-179.03219478" z="6.15240291" />
+      </camera>
+      <camera id="67" label="012773_R" sensor_id="1">
+        <reference enabled="true" pitch="89.92973501" roll="1.08046569" x="973.41884392" y="-321.7106423" yaw="-178.90495442" z="6.1406601" />
+      </camera>
+      <camera id="68" label="012774_L" sensor_id="0">
+        <reference enabled="true" pitch="89.55271936" roll="1.18294037" x="973.91012325" y="-322.53024684" yaw="-179.04055613" z="6.15951116" />
+      </camera>
+      <camera id="69" label="012774_R" sensor_id="1">
+        <reference enabled="true" pitch="89.94588125" roll="0.96714015" x="973.41048712" y="-322.52224735" yaw="-178.91326038" z="6.1487571" />
+      </camera>
+      <camera id="70" label="012775_L" sensor_id="0">
+        <reference enabled="true" pitch="89.52074556" roll="1.0730906" x="973.90177044" y="-323.32607711" yaw="-179.03671442" z="6.16516275" />
+      </camera>
+      <camera id="71" label="012775_R" sensor_id="1">
+        <reference enabled="true" pitch="89.91415364" roll="0.85721967" x="973.40211516" y="-323.31804355" yaw="-178.90954302" z="6.15536656" />
+      </camera>
+      <camera id="72" label="012776_L" sensor_id="0">
+        <reference enabled="true" pitch="89.49406648" roll="0.9649093" x="973.89289826" y="-324.14201891" yaw="-179.02421825" z="6.17027576" />
+      </camera>
+      <camera id="73" label="012776_R" sensor_id="1">
+        <reference enabled="true" pitch="89.88771627" roll="0.74897945" x="973.39322715" y="-324.13387587" yaw="-178.89715075" z="6.16142294" />
+      </camera>
+      <camera id="74" label="012777_L" sensor_id="0">
+        <reference enabled="true" pitch="89.5411915" roll="0.86721471" x="973.88362335" y="-324.95325915" yaw="-179.00416089" z="6.17722688" />
+      </camera>
+      <camera id="75" label="012777_R" sensor_id="1">
+        <reference enabled="true" pitch="89.93505549" roll="0.65138967" x="973.38394074" y="-324.9449413" yaw="-178.87691848" z="6.16922647" />
+      </camera>
+      <camera id="76" label="012778_L" sensor_id="0">
+        <reference enabled="true" pitch="89.64973636" roll="0.80405409" x="973.87370742" y="-325.77126049" yaw="-178.9778157" z="6.18688525" />
+      </camera>
+      <camera id="77" label="012778_R" sensor_id="1">
+        <reference enabled="true" pitch="90.04373539" roll="0.58847062" x="973.37402015" y="-325.76271356" yaw="-178.85016614" z="6.17943645" />
+      </camera>
+      <camera id="78" label="012779_L" sensor_id="0">
+        <reference enabled="true" pitch="89.74746771" roll="0.76838671" x="973.86310647" y="-326.59650124" yaw="-178.94680728" z="6.19819471" />
+      </camera>
+      <camera id="79" label="012779_R" sensor_id="1">
+        <reference enabled="true" pitch="90.14154173" roll="0.55302136" x="973.36341933" y="-326.58768454" yaw="-178.81879094" z="6.19105765" />
+      </camera>
+      <camera id="80" label="012780_L" sensor_id="0">
+        <reference enabled="true" pitch="89.81891295" roll="0.76090985" x="973.85197084" y="-327.41135554" yaw="-178.91207426" z="6.21034397" />
+      </camera>
+      <camera id="81" label="012780_R" sensor_id="1">
+        <reference enabled="true" pitch="90.21300043" roll="0.5457043" x="973.3522882" y="-327.40223645" yaw="-178.78378962" z="6.20327259" />
+      </camera>
+      <camera id="82" label="012781_L" sensor_id="0">
+        <reference enabled="true" pitch="89.85252463" roll="0.79371838" x="973.83976547" y="-328.2422549" yaw="-178.87174203" z="6.22524067" />
+      </camera>
+      <camera id="83" label="012781_R" sensor_id="1">
+        <reference enabled="true" pitch="90.24653705" roll="0.57858804" x="973.3400935" y="-328.23278441" yaw="-178.74333044" z="6.21788333" />
+      </camera>
+      <camera id="84" label="012782_L" sensor_id="0">
+        <reference enabled="true" pitch="89.93448191" roll="0.79486572" x="973.82696193" y="-329.07803338" yaw="-178.82676254" z="6.24166066" />
+      </camera>
+      <camera id="85" label="012782_R" sensor_id="1">
+        <reference enabled="true" pitch="90.32848786" roll="0.57991926" x="973.32729767" y="-329.06817125" yaw="-178.69804331" z="6.23429384" />
+      </camera>
+      <camera id="86" label="012783_L" sensor_id="0">
+        <reference enabled="true" pitch="90.03840851" roll="0.78288421" x="973.81369827" y="-329.91206962" yaw="-178.7867337" z="6.25995031" />
+      </camera>
+      <camera id="87" label="012783_R" sensor_id="1">
+        <reference enabled="true" pitch="90.43243652" roll="0.56817159" x="973.31403947" y="-329.90185916" yaw="-178.65762505" z="6.25268868" />
+      </camera>
+      <camera id="88" label="012784_L" sensor_id="0">
+        <reference enabled="true" pitch="90.08669984" roll="0.78008286" x="973.79994108" y="-330.75155746" yaw="-178.75292611" z="6.27890711" />
+      </camera>
+      <camera id="89" label="012784_R" sensor_id="1">
+        <reference enabled="true" pitch="90.48073192" roll="0.56547913" x="973.30028802" y="-330.74105253" yaw="-178.62363659" z="6.27167023" />
+      </camera>
+      <camera id="90" label="012785_L" sensor_id="0">
+        <reference enabled="true" pitch="89.98954444" roll="0.79049578" x="973.78554197" y="-331.5955258" yaw="-178.71690772" z="6.29478493" />
+      </camera>
+      <camera id="91" label="012785_R" sensor_id="1">
+        <reference enabled="true" pitch="90.38355762" roll="0.57567312" x="973.28589697" y="-331.58470607" yaw="-178.58798206" z="6.28745658" />
+      </camera>
+      <camera id="92" label="012786_L" sensor_id="0">
+        <reference enabled="true" pitch="89.87348747" roll="0.7424241" x="973.77122124" y="-332.43165172" yaw="-178.69013607" z="6.30864715" />
+      </camera>
+      <camera id="93" label="012786_R" sensor_id="1">
+        <reference enabled="true" pitch="90.26761393" roll="0.52734087" x="973.2715754" y="-332.42059752" yaw="-178.56164689" z="6.30173737" />
+      </camera>
+      <camera id="94" label="012787_L" sensor_id="0">
+        <reference enabled="true" pitch="89.86164337" roll="0.74669612" x="973.75566072" y="-333.27909539" yaw="-178.64578427" z="6.32389798" />
+      </camera>
+      <camera id="95" label="012787_R" sensor_id="1">
+        <reference enabled="true" pitch="90.25576078" roll="0.53158633" x="973.25602411" y="-333.26765434" yaw="-178.51733946" z="6.31695085" />
+      </camera>
+      <camera id="96" label="012788_L" sensor_id="0">
+        <reference enabled="true" pitch="89.83522653" roll="0.75562151" x="973.73965298" y="-334.13032484" yaw="-178.6140635" z="6.33877939" />
+      </camera>
+      <camera id="97" label="012788_R" sensor_id="1">
+        <reference enabled="true" pitch="90.22932512" roll="0.54045251" x="973.24002388" y="-334.11860701" yaw="-178.4857177" z="6.33175424" />
+      </camera>
+      <camera id="98" label="012789_L" sensor_id="0">
+        <reference enabled="true" pitch="89.8220121" roll="0.77487301" x="973.72344172" y="-334.96552195" yaw="-178.58017632" z="6.35321769" />
+      </camera>
+      <camera id="99" label="012789_R" sensor_id="1">
+        <reference enabled="true" pitch="90.21606817" roll="0.55967437" x="973.22382202" y="-334.95350858" yaw="-178.45187974" z="6.34602454" />
+      </camera>
+      <camera id="100" label="040_L" sensor_id="2" />
+      <camera id="110" label="040_R" sensor_id="3" />
+      <camera id="101" label="041_L" sensor_id="2" />
+      <camera id="111" label="041_R" sensor_id="3" />
+      <camera id="102" label="042_L" sensor_id="2" />
+      <camera id="112" label="042_R" sensor_id="3" />
+      <camera id="103" label="043_L" sensor_id="2" />
+      <camera id="113" label="043_R" sensor_id="3" />
+      <camera id="104" label="044_L" sensor_id="2" />
+      <camera id="114" label="044_R" sensor_id="3" />
+      <camera id="105" label="045_L" sensor_id="2" />
+      <camera id="115" label="045_R" sensor_id="3" />
+      <camera id="106" label="046_L" sensor_id="2" />
+      <camera id="116" label="046_R" sensor_id="3" />
+      <camera id="107" label="047_L" sensor_id="2" />
+      <camera id="117" label="047_R" sensor_id="3" />
+      <camera id="108" label="048_L" sensor_id="2" />
+      <camera id="118" label="048_R" sensor_id="3" />
+      <camera id="109" label="049_L" sensor_id="2" />
+      <camera id="119" label="049_R" sensor_id="3" />
+    </cameras>
+    <reference>LOCAL_CS["Local Coordinates (m)",LOCAL_DATUM["Local Datum",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</reference>
+    <settings>
+      <property name="accuracy_tiepoints" value="1" />
+      <property name="accuracy_cameras" value="0.001" />
+      <property name="accuracy_cameras_ypr" value="0.01" />
+      <property name="accuracy_markers" value="0.005" />
+      <property name="accuracy_scalebars" value="0.001" />
+      <property name="accuracy_projections" value="0.1" />
+    </settings>
+    <markers next_group_id="0" next_id="77">
+      <marker id="0" label="point 0" />
+      <marker id="1" label="point 1" />
+      <marker id="2" label="point 2" />
+      <marker id="3" label="point 3" />
+      <marker id="4" label="point 4" />
+      <marker id="5" label="point 5" />
+      <marker id="6" label="point 6" />
+      <marker id="7" label="point 7" />
+      <marker id="8" label="point 8" />
+      <marker id="9" label="point 9" />
+      <marker id="10" label="point 10" />
+      <marker id="11" label="point 11" />
+      <marker id="12" label="point 12" />
+      <marker id="13" label="point 13" />
+      <marker id="14" label="point 14" />
+      <marker id="15" label="point 15" />
+      <marker id="16" label="point 16" />
+      <marker id="17" label="point 17" />
+      <marker id="18" label="point 18" />
+      <marker id="19" label="point 19" />
+      <marker id="20" label="point 20" />
+      <marker id="21" label="point 21" />
+      <marker id="22" label="point 22" />
+      <marker id="23" label="point 23" />
+      <marker id="24" label="point 24" />
+      <marker id="25" label="point 25" />
+      <marker id="26" label="point 26" />
+      <marker id="27" label="point 27" />
+      <marker id="28" label="point 28" />
+      <marker id="29" label="point 29" />
+      <marker id="30" label="point 30" />
+      <marker id="31" label="point 31" />
+      <marker id="32" label="point 32" />
+      <marker id="33" label="point 33" />
+      <marker id="34" label="point 34" />
+      <marker id="35" label="point 35" />
+      <marker id="36" label="point 36" />
+      <marker id="37" label="point 37" />
+      <marker id="38" label="point 38" />
+      <marker id="39" label="point 39" />
+      <marker id="40" label="point 40" />
+      <marker id="41" label="point 41" />
+      <marker id="42" label="point 42" />
+      <marker id="43" label="point 43" />
+      <marker id="44" label="point 44" />
+      <marker id="45" label="point 45" />
+      <marker id="46" label="point 46" />
+      <marker id="47" label="point 47" />
+      <marker id="48" label="point 48" />
+      <marker id="49" label="point 49" />
+      <marker id="50" label="point 50" />
+      <marker id="51" label="point 51" />
+      <marker id="52" label="point 52" />
+      <marker id="53" label="point 53" />
+      <marker id="54" label="point 54" />
+      <marker id="55" label="point 55" />
+      <marker id="56" label="point 56" />
+      <marker id="57" label="point 57" />
+      <marker id="58" label="point 58" />
+      <marker id="59" label="point 59" />
+      <marker id="60" label="point 60" />
+      <marker id="61" label="point 61" />
+      <marker id="62" label="point 62" />
+      <marker id="63" label="point 63" />
+      <marker id="64" label="point 64" />
+      <marker id="65" label="point 65" />
+      <marker id="66" label="point 66" />
+      <marker id="67" label="point 67" />
+      <marker id="68" label="point 68" />
+      <marker id="69" label="point 69" />
+      <marker id="70" label="point 70" />
+      <marker id="71" label="point 71" />
+      <marker id="72" label="point 72" />
+      <marker id="73" label="point 73" />
+      <marker id="74" label="point 74" />
+      <marker id="75" label="point 75" />
+      <marker id="76" label="point 76" />
+    </markers>
+    <frames next_id="1">
+      <frame id="0">
+        <markers>
+          <marker marker_id="0">
+            <location camera_id="109" pinned="true" x="56" y="532" />
+            <location camera_id="50" pinned="true" x="70" y="532" />
+            <location camera_id="10" pinned="true" x="214" y="522" />
+            <location camera_id="30" pinned="true" x="162" y="518" />
+            <location camera_id="90" pinned="true" x="30" y="478" />
+          </marker>
+          <marker marker_id="1">
+            <location camera_id="109" pinned="true" x="373" y="496" />
+            <location camera_id="10" pinned="true" x="448" y="491" />
+            <location camera_id="30" pinned="true" x="423" y="485" />
+            <location camera_id="70" pinned="true" x="332" y="487" />
+            <location camera_id="90" pinned="true" x="265" y="493" />
+          </marker>
+          <marker marker_id="2">
+            <location camera_id="109" pinned="true" x="443" y="563" />
+            <location camera_id="50" pinned="true" x="458" y="562" />
+            <location camera_id="10" pinned="true" x="458" y="560" />
+            <location camera_id="30" pinned="true" x="495" y="547" />
+            <location camera_id="90" pinned="true" x="408" y="578" />
+          </marker>
+          <marker marker_id="3">
+            <location camera_id="109" pinned="true" x="685" y="444" />
+            <location camera_id="50" pinned="true" x="694" y="444" />
+            <location camera_id="10" pinned="true" x="691" y="454" />
+            <location camera_id="30" pinned="true" x="697" y="444" />
+            <location camera_id="70" pinned="true" x="698" y="438" />
+            <location camera_id="90" pinned="true" x="706" y="431" />
+          </marker>
+          <marker marker_id="4">
+            <location camera_id="109" pinned="true" x="66" y="135" />
+            <location camera_id="50" pinned="true" x="98" y="145" />
+            <location camera_id="10" pinned="true" x="322" y="281" />
+            <location camera_id="30" pinned="true" x="241" y="223" />
+            <location camera_id="90" pinned="true" x="113" y="187" />
+          </marker>
+          <marker marker_id="5">
+            <location camera_id="109" pinned="true" x="733" y="445" />
+            <location camera_id="50" pinned="true" x="741" y="446" />
+            <location camera_id="10" pinned="true" x="732" y="456" />
+            <location camera_id="70" pinned="true" x="747" y="441" />
+            <location camera_id="90" pinned="true" x="751" y="439" />
+          </marker>
+          <marker marker_id="6">
+            <location camera_id="109" pinned="true" x="626" y="444" />
+            <location camera_id="50" pinned="true" x="633" y="443" />
+            <location camera_id="10" pinned="true" x="636" y="449" />
+            <location camera_id="30" pinned="true" x="638" y="442" />
+            <location camera_id="70" pinned="true" x="634" y="443" />
+            <location camera_id="90" pinned="true" x="630" y="444" />
+          </marker>
+          <marker marker_id="7">
+            <location camera_id="109" pinned="true" x="479" y="554" />
+            <location camera_id="50" pinned="true" x="491" y="553" />
+            <location camera_id="10" pinned="true" x="490" y="552" />
+            <location camera_id="30" pinned="true" x="519" y="541" />
+            <location camera_id="70" pinned="true" x="413" y="574" />
+            <location camera_id="90" pinned="true" x="457" y="566" />
+          </marker>
+          <marker marker_id="8">
+            <location camera_id="109" pinned="true" x="1081" y="446" />
+            <location camera_id="50" pinned="true" x="1086" y="447" />
+            <location camera_id="30" pinned="true" x="1028" y="456" />
+            <location camera_id="70" pinned="true" x="1155" y="441" />
+            <location camera_id="90" pinned="true" x="1252" y="439" />
+          </marker>
+          <marker marker_id="9">
+            <location camera_id="109" pinned="true" x="1213" y="338" />
+            <location camera_id="50" pinned="true" x="1215" y="340" />
+            <location camera_id="10" pinned="true" x="1096" y="381" />
+            <location camera_id="30" pinned="true" x="1154" y="358" />
+            <location camera_id="70" pinned="true" x="1306" y="317" />
+          </marker>
+          <marker marker_id="10">
+            <location camera_id="109" pinned="true" x="469" y="523" />
+            <location camera_id="50" pinned="true" x="480" y="522" />
+            <location camera_id="30" pinned="true" x="503" y="515" />
+            <location camera_id="70" pinned="true" x="500" y="520" />
+            <location camera_id="90" pinned="true" x="425" y="530" />
+          </marker>
+          <marker marker_id="11">
+            <location camera_id="109" pinned="true" x="1273" y="318" />
+            <location camera_id="50" pinned="true" x="1275" y="321" />
+            <location camera_id="10" pinned="true" x="1130" y="370" />
+            <location camera_id="30" pinned="true" x="1199" y="344" />
+            <location camera_id="70" pinned="true" x="1321" y="311" />
+          </marker>
+          <marker marker_id="12">
+            <location camera_id="109" pinned="true" x="653" y="427" />
+            <location camera_id="50" pinned="true" x="662" y="428" />
+            <location camera_id="10" pinned="true" x="665" y="445" />
+            <location camera_id="30" pinned="true" x="668" y="432" />
+            <location camera_id="70" pinned="true" x="662" y="417" />
+            <location camera_id="90" pinned="true" x="658" y="406" />
+          </marker>
+          <marker marker_id="13">
+            <location camera_id="109" pinned="true" x="766" y="513" />
+            <location camera_id="50" pinned="true" x="773" y="513" />
+            <location camera_id="30" pinned="true" x="766" y="508" />
+            <location camera_id="70" pinned="true" x="786" y="515" />
+            <location camera_id="90" pinned="true" x="797" y="523" />
+          </marker>
+          <marker marker_id="14">
+            <location camera_id="109" pinned="true" x="805" y="332" />
+            <location camera_id="50" pinned="true" x="814" y="335" />
+            <location camera_id="30" pinned="true" x="794" y="363" />
+            <location camera_id="70" pinned="true" x="856" y="291" />
+            <location camera_id="90" pinned="true" x="1080" y="14" />
+          </marker>
+          <marker marker_id="15">
+            <location camera_id="109" pinned="true" x="743" y="357" />
+            <location camera_id="50" pinned="true" x="753" y="360" />
+            <location camera_id="10" pinned="true" x="729" y="404" />
+            <location camera_id="30" pinned="true" x="743" y="380" />
+            <location camera_id="70" pinned="true" x="777" y="322" />
+            <location camera_id="90" pinned="true" x="817" y="258" />
+          </marker>
+          <marker marker_id="16">
+            <location camera_id="109" pinned="true" x="380" y="478" />
+            <location camera_id="50" pinned="true" x="394" y="477" />
+            <location camera_id="10" pinned="true" x="459" y="483" />
+            <location camera_id="30" pinned="true" x="435" y="475" />
+            <location camera_id="70" pinned="true" x="348" y="473" />
+            <location camera_id="90" pinned="true" x="275" y="467" />
+          </marker>
+          <marker marker_id="17">
+            <location camera_id="109" pinned="true" x="458" y="559" />
+            <location camera_id="50" pinned="true" x="472" y="558" />
+            <location camera_id="10" pinned="true" x="500" y="549" />
+            <location camera_id="30" pinned="true" x="505" y="545" />
+            <location camera_id="70" pinned="true" x="374" y="585" />
+            <location camera_id="90" pinned="true" x="430" y="573" />
+          </marker>
+          <marker marker_id="18">
+            <location camera_id="109" pinned="true" x="1287" y="261" />
+            <location camera_id="50" pinned="true" x="1288" y="264" />
+            <location camera_id="10" pinned="true" x="1145" y="322" />
+            <location camera_id="30" pinned="true" x="1210" y="295" />
+            <location camera_id="70" pinned="true" x="1333" y="251" />
+          </marker>
+          <marker marker_id="19">
+            <location camera_id="109" pinned="true" x="565" y="513" />
+            <location camera_id="10" pinned="true" x="577" y="512" />
+            <location camera_id="30" pinned="true" x="575" y="507" />
+            <location camera_id="70" pinned="true" x="555" y="515" />
+            <location camera_id="90" pinned="true" x="542" y="520" />
+          </marker>
+          <marker marker_id="20">
+            <location camera_id="109" pinned="true" x="762" y="356" />
+            <location camera_id="50" pinned="true" x="772" y="359" />
+            <location camera_id="10" pinned="true" x="742" y="404" />
+            <location camera_id="30" pinned="true" x="759" y="380" />
+            <location camera_id="70" pinned="true" x="802" y="321" />
+            <location camera_id="90" pinned="true" x="851" y="257" />
+          </marker>
+          <marker marker_id="21">
+            <location camera_id="109" pinned="true" x="446" y="347" />
+            <location camera_id="50" pinned="true" x="452" y="348" />
+            <location camera_id="10" pinned="true" x="459" y="351" />
+            <location camera_id="30" pinned="true" x="460" y="344" />
+            <location camera_id="70" pinned="true" x="451" y="346" />
+            <location camera_id="90" pinned="true" x="445" y="342" />
+          </marker>
+          <marker marker_id="22">
+            <location camera_id="109" pinned="true" x="662" y="407" />
+            <location camera_id="50" pinned="true" x="671" y="407" />
+            <location camera_id="10" pinned="true" x="672" y="429" />
+            <location camera_id="30" pinned="true" x="676" y="414" />
+            <location camera_id="70" pinned="true" x="673" y="394" />
+            <location camera_id="90" pinned="true" x="672" y="379" />
+          </marker>
+          <marker marker_id="23">
+            <location camera_id="109" pinned="true" x="634" y="490" />
+            <location camera_id="50" pinned="true" x="649" y="489" />
+            <location camera_id="10" pinned="true" x="649" y="491" />
+            <location camera_id="30" pinned="true" x="654" y="485" />
+            <location camera_id="70" pinned="true" x="651" y="490" />
+            <location camera_id="90" pinned="true" x="648" y="494" />
+          </marker>
+          <marker marker_id="24">
+            <location camera_id="109" pinned="true" x="642" y="447" />
+            <location camera_id="50" pinned="true" x="649" y="448" />
+            <location camera_id="10" pinned="true" x="652" y="457" />
+            <location camera_id="30" pinned="true" x="656" y="448" />
+            <location camera_id="70" pinned="true" x="648" y="443" />
+            <location camera_id="90" pinned="true" x="644" y="441" />
+          </marker>
+          <marker marker_id="25">
+            <location camera_id="109" pinned="true" x="744" y="487" />
+            <location camera_id="10" pinned="true" x="746" y="490" />
+            <location camera_id="30" pinned="true" x="753" y="484" />
+            <location camera_id="70" pinned="true" x="756" y="488" />
+            <location camera_id="90" pinned="true" x="756" y="493" />
+          </marker>
+          <marker marker_id="26">
+            <location camera_id="109" pinned="true" x="598" y="365" />
+            <location camera_id="50" pinned="true" x="604" y="365" />
+            <location camera_id="10" pinned="true" x="607" y="369" />
+            <location camera_id="30" pinned="true" x="610" y="362" />
+            <location camera_id="70" pinned="true" x="606" y="364" />
+            <location camera_id="90" pinned="true" x="603" y="367" />
+          </marker>
+          <marker marker_id="27">
+            <location camera_id="109" pinned="true" x="175" y="631" />
+            <location camera_id="50" pinned="true" x="210" y="626" />
+            <location camera_id="10" pinned="true" x="194" y="625" />
+            <location camera_id="30" pinned="true" x="208" y="618" />
+            <location camera_id="90" pinned="true" x="208" y="628" />
+          </marker>
+          <marker marker_id="28">
+            <location camera_id="109" pinned="true" x="592" y="614" />
+            <location camera_id="50" pinned="true" x="612" y="610" />
+            <location camera_id="10" pinned="true" x="711" y="564" />
+            <location camera_id="30" pinned="true" x="680" y="576" />
+            <location camera_id="70" pinned="true" x="574" y="680" />
+          </marker>
+          <marker marker_id="29">
+            <location camera_id="109" pinned="true" x="269" y="262" />
+            <location camera_id="50" pinned="true" x="290" y="266" />
+            <location camera_id="30" pinned="true" x="364" y="298" />
+            <location camera_id="70" pinned="true" x="200" y="207" />
+            <location camera_id="90" pinned="true" x="44" y="108" />
+          </marker>
+          <marker marker_id="30">
+            <location camera_id="109" pinned="true" x="610" y="379" />
+            <location camera_id="50" pinned="true" x="617" y="379" />
+            <location camera_id="10" pinned="true" x="619" y="382" />
+            <location camera_id="30" pinned="true" x="622" y="376" />
+            <location camera_id="70" pinned="true" x="618" y="379" />
+            <location camera_id="90" pinned="true" x="616" y="381" />
+          </marker>
+          <marker marker_id="31">
+            <location camera_id="109" pinned="true" x="796" y="323" />
+            <location camera_id="50" pinned="true" x="805" y="326" />
+            <location camera_id="30" pinned="true" x="786" y="353" />
+            <location camera_id="70" pinned="true" x="844" y="280" />
+            <location camera_id="90" pinned="true" x="908" y="200" />
+          </marker>
+          <marker marker_id="32">
+            <location camera_id="109" pinned="true" x="1040" y="430" />
+            <location camera_id="50" pinned="true" x="1043" y="431" />
+            <location camera_id="30" pinned="true" x="1005" y="435" />
+            <location camera_id="70" pinned="true" x="1090" y="425" />
+            <location camera_id="90" pinned="true" x="1156" y="421" />
+          </marker>
+          <marker marker_id="33">
+            <location camera_id="109" pinned="true" x="701" y="416" />
+            <location camera_id="50" pinned="true" x="710" y="416" />
+            <location camera_id="10" pinned="true" x="702" y="436" />
+            <location camera_id="30" pinned="true" x="710" y="422" />
+            <location camera_id="70" pinned="true" x="718" y="405" />
+            <location camera_id="90" pinned="true" x="724" y="392" />
+          </marker>
+          <marker marker_id="34">
+            <location camera_id="109" pinned="true" x="514" y="436" />
+            <location camera_id="50" pinned="true" x="521" y="436" />
+            <location camera_id="10" pinned="true" x="541" y="444" />
+            <location camera_id="30" pinned="true" x="537" y="435" />
+            <location camera_id="70" pinned="true" x="512" y="431" />
+            <location camera_id="90" pinned="true" x="495" y="428" />
+          </marker>
+          <marker marker_id="35">
+            <location camera_id="109" pinned="true" x="751" y="335" />
+            <location camera_id="50" pinned="true" x="762" y="338" />
+            <location camera_id="10" pinned="true" x="735" y="390" />
+            <location camera_id="30" pinned="true" x="751" y="363" />
+            <location camera_id="70" pinned="true" x="789" y="295" />
+            <location camera_id="90" pinned="true" x="833" y="219" />
+          </marker>
+          <marker marker_id="36">
+            <location camera_id="109" pinned="true" x="631" y="478" />
+            <location camera_id="50" pinned="true" x="635" y="482" />
+            <location camera_id="10" pinned="true" x="637" y="484" />
+            <location camera_id="70" pinned="true" x="636" y="482" />
+            <location camera_id="90" pinned="true" x="631" y="486" />
+          </marker>
+          <marker marker_id="37">
+            <location camera_id="109" pinned="true" x="806" y="357" />
+            <location camera_id="50" pinned="true" x="817" y="359" />
+            <location camera_id="10" pinned="true" x="772" y="407" />
+            <location camera_id="30" pinned="true" x="796" y="381" />
+            <location camera_id="70" pinned="true" x="857" y="323" />
+            <location camera_id="90" pinned="true" x="926" y="261" />
+          </marker>
+          <marker marker_id="38">
+            <location camera_id="109" pinned="true" x="240" y="567" />
+            <location camera_id="50" pinned="true" x="262" y="565" />
+            <location camera_id="10" pinned="true" x="335" y="550" />
+            <location camera_id="30" pinned="true" x="306" y="552" />
+            <location camera_id="90" pinned="true" x="213" y="572" />
+          </marker>
+          <marker marker_id="39">
+            <location camera_id="109" pinned="true" x="1058" y="372" />
+            <location camera_id="50" pinned="true" x="1063" y="372" />
+            <location camera_id="10" pinned="true" x="1024" y="393" />
+            <location camera_id="70" pinned="true" x="1087" y="366" />
+            <location camera_id="90" pinned="true" x="1111" y="364" />
+          </marker>
+          <marker marker_id="40">
+            <location camera_id="109" pinned="true" x="508" y="615" />
+            <location camera_id="50" pinned="true" x="531" y="611" />
+            <location camera_id="10" pinned="true" x="567" y="599" />
+            <location camera_id="30" pinned="true" x="574" y="576" />
+            <location camera_id="70" pinned="true" x="429" y="679" />
+          </marker>
+          <marker marker_id="41">
+            <location camera_id="109" pinned="true" x="317" y="595" />
+            <location camera_id="50" pinned="true" x="340" y="592" />
+            <location camera_id="10" pinned="true" x="335" y="589" />
+            <location camera_id="30" pinned="true" x="341" y="585" />
+            <location camera_id="90" pinned="true" x="287" y="613" />
+          </marker>
+          <marker marker_id="42">
+            <location camera_id="109" pinned="true" x="1040" y="455" />
+            <location camera_id="50" pinned="true" x="1044" y="457" />
+            <location camera_id="30" pinned="true" x="1005" y="460" />
+            <location camera_id="70" pinned="true" x="1091" y="453" />
+            <location camera_id="90" pinned="true" x="1156" y="454" />
+          </marker>
+          <marker marker_id="43">
+            <location camera_id="109" pinned="true" x="1081" y="460" />
+            <location camera_id="50" pinned="true" x="1086" y="461" />
+            <location camera_id="10" pinned="true" x="979" y="477" />
+            <location camera_id="70" pinned="true" x="1153" y="457" />
+            <location camera_id="90" pinned="true" x="1246" y="457" />
+          </marker>
+          <marker marker_id="44">
+            <location camera_id="109" pinned="true" x="748" y="420" />
+            <location camera_id="50" pinned="true" x="756" y="422" />
+            <location camera_id="30" pinned="true" x="752" y="427" />
+            <location camera_id="70" pinned="true" x="772" y="410" />
+            <location camera_id="90" pinned="true" x="787" y="398" />
+          </marker>
+          <marker marker_id="45">
+            <location camera_id="109" pinned="true" x="529" y="344" />
+            <location camera_id="50" pinned="true" x="536" y="344" />
+            <location camera_id="10" pinned="true" x="541" y="349" />
+            <location camera_id="30" pinned="true" x="543" y="341" />
+            <location camera_id="70" pinned="true" x="536" y="342" />
+            <location camera_id="90" pinned="true" x="533" y="344" />
+          </marker>
+          <marker marker_id="46">
+            <location camera_id="109" pinned="true" x="663" y="420" />
+            <location camera_id="50" pinned="true" x="672" y="421" />
+            <location camera_id="30" pinned="true" x="677" y="426" />
+            <location camera_id="70" pinned="true" x="675" y="410" />
+            <location camera_id="90" pinned="true" x="672" y="397" />
+          </marker>
+          <marker marker_id="47">
+            <location camera_id="109" pinned="true" x="1080" y="429" />
+            <location camera_id="50" pinned="true" x="1084" y="430" />
+            <location camera_id="10" pinned="true" x="994" y="450" />
+            <location camera_id="30" pinned="true" x="1041" y="436" />
+            <location camera_id="70" pinned="true" x="1152" y="422" />
+            <location camera_id="90" pinned="true" x="1243" y="415" />
+          </marker>
+          <marker marker_id="48">
+            <location camera_id="109" pinned="true" x="1270" y="291" />
+            <location camera_id="50" pinned="true" x="1271" y="294" />
+            <location camera_id="10" pinned="true" x="1129" y="349" />
+            <location camera_id="30" pinned="true" x="1196" y="318" />
+            <location camera_id="70" pinned="true" x="1322" y="282" />
+          </marker>
+          <marker marker_id="49">
+            <location camera_id="109" pinned="true" x="1048" y="487" />
+            <location camera_id="50" pinned="true" x="1054" y="488" />
+            <location camera_id="10" pinned="true" x="952" y="497" />
+            <location camera_id="30" pinned="true" x="1005" y="487" />
+            <location camera_id="70" pinned="true" x="1139" y="487" />
+          </marker>
+          <marker marker_id="50">
+            <location camera_id="109" pinned="true" x="578" y="356" />
+            <location camera_id="50" pinned="true" x="585" y="356" />
+            <location camera_id="10" pinned="true" x="587" y="360" />
+            <location camera_id="30" pinned="true" x="590" y="353" />
+            <location camera_id="70" pinned="true" x="587" y="355" />
+            <location camera_id="90" pinned="true" x="584" y="357" />
+          </marker>
+          <marker marker_id="51">
+            <location camera_id="109" pinned="true" x="1209" y="432" />
+            <location camera_id="50" pinned="true" x="1210" y="433" />
+            <location camera_id="10" pinned="true" x="1063" y="458" />
+            <location camera_id="70" pinned="true" x="1333" y="421" />
+            <location camera_id="90" pinned="true" x="1335" y="447" />
+          </marker>
+          <marker marker_id="52">
+            <location camera_id="109" pinned="true" x="416" y="802" />
+            <location camera_id="50" pinned="true" x="475" y="773" />
+            <location camera_id="10" pinned="true" x="460" y="780" />
+            <location camera_id="30" pinned="true" x="483" y="760" />
+            <location camera_id="90" pinned="true" x="488" y="765" />
+          </marker>
+          <marker marker_id="53">
+            <location camera_id="109" pinned="true" x="1094" y="445" />
+            <location camera_id="50" pinned="true" x="1098" y="446" />
+            <location camera_id="10" pinned="true" x="993" y="464" />
+            <location camera_id="30" pinned="true" x="1043" y="452" />
+            <location camera_id="70" pinned="true" x="1172" y="439" />
+            <location camera_id="90" pinned="true" x="1272" y="435" />
+          </marker>
+          <marker marker_id="54">
+            <location camera_id="109" pinned="true" x="734" y="475" />
+            <location camera_id="50" pinned="true" x="743" y="477" />
+            <location camera_id="10" pinned="true" x="733" y="481" />
+            <location camera_id="30" pinned="true" x="742" y="474" />
+            <location camera_id="70" pinned="true" x="749" y="477" />
+            <location camera_id="90" pinned="true" x="753" y="481" />
+          </marker>
+          <marker marker_id="55">
+            <location camera_id="109" pinned="true" x="382" y="461" />
+            <location camera_id="50" pinned="true" x="395" y="461" />
+            <location camera_id="10" pinned="true" x="459" y="469" />
+            <location camera_id="30" pinned="true" x="436" y="461" />
+            <location camera_id="70" pinned="true" x="348" y="454" />
+            <location camera_id="90" pinned="true" x="275" y="444" />
+          </marker>
+          <marker marker_id="56">
+            <location camera_id="109" pinned="true" x="340" y="522" />
+            <location camera_id="50" pinned="true" x="359" y="522" />
+            <location camera_id="10" pinned="true" x="400" y="517" />
+            <location camera_id="70" pinned="true" x="259" y="530" />
+            <location camera_id="90" pinned="true" x="268" y="528" />
+          </marker>
+          <marker marker_id="57">
+            <location camera_id="109" pinned="true" x="795" y="515" />
+            <location camera_id="50" pinned="true" x="805" y="515" />
+            <location camera_id="10" pinned="true" x="773" y="515" />
+            <location camera_id="30" pinned="true" x="792" y="510" />
+            <location camera_id="90" pinned="true" x="847" y="527" />
+          </marker>
+          <marker marker_id="58">
+            <location camera_id="109" pinned="true" x="1013" y="510" />
+            <location camera_id="50" pinned="true" x="1019" y="509" />
+            <location camera_id="10" pinned="true" x="938" y="513" />
+            <location camera_id="30" pinned="true" x="974" y="503" />
+            <location camera_id="70" pinned="true" x="1092" y="517" />
+            <location camera_id="90" pinned="true" x="1157" y="527" />
+          </marker>
+          <marker marker_id="59">
+            <location camera_id="109" pinned="true" x="185" y="559" />
+            <location camera_id="50" pinned="true" x="209" y="557" />
+            <location camera_id="30" pinned="true" x="306" y="540" />
+            <location camera_id="70" pinned="true" x="55" y="573" />
+            <location camera_id="90" pinned="true" x="61" y="571" />
+          </marker>
+          <marker marker_id="60">
+            <location camera_id="109" pinned="true" x="441" y="803" />
+            <location camera_id="50" pinned="true" x="498" y="774" />
+            <location camera_id="10" pinned="true" x="485" y="781" />
+            <location camera_id="30" pinned="true" x="505" y="761" />
+            <location camera_id="90" pinned="true" x="510" y="765" />
+          </marker>
+          <marker marker_id="61">
+            <location camera_id="109" pinned="true" x="1072" y="462" />
+            <location camera_id="50" pinned="true" x="1077" y="463" />
+            <location camera_id="10" pinned="true" x="963" y="477" />
+            <location camera_id="30" pinned="true" x="1028" y="466" />
+            <location camera_id="70" pinned="true" x="1140" y="460" />
+            <location camera_id="90" pinned="true" x="1224" y="461" />
+          </marker>
+          <marker marker_id="62">
+            <location camera_id="109" pinned="true" x="1082" y="488" />
+            <location camera_id="50" pinned="true" x="1086" y="488" />
+            <location camera_id="10" pinned="true" x="972" y="495" />
+            <location camera_id="30" pinned="true" x="1026" y="487" />
+            <location camera_id="70" pinned="true" x="1178" y="487" />
+            <location camera_id="90" pinned="true" x="1261" y="493" />
+          </marker>
+          <marker marker_id="63">
+            <location camera_id="109" pinned="true" x="365" y="462" />
+            <location camera_id="50" pinned="true" x="379" y="462" />
+            <location camera_id="10" pinned="true" x="447" y="469" />
+            <location camera_id="30" pinned="true" x="422" y="461" />
+            <location camera_id="70" pinned="true" x="331" y="455" />
+            <location camera_id="90" pinned="true" x="254" y="445" />
+          </marker>
+          <marker marker_id="64">
+            <location camera_id="109" pinned="true" x="503" y="541" />
+            <location camera_id="50" pinned="true" x="524" y="540" />
+            <location camera_id="10" pinned="true" x="539" y="533" />
+            <location camera_id="30" pinned="true" x="531" y="531" />
+            <location camera_id="70" pinned="true" x="462" y="556" />
+            <location camera_id="90" pinned="true" x="472" y="553" />
+          </marker>
+          <marker marker_id="65">
+            <location camera_id="109" pinned="true" x="732" y="302" />
+            <location camera_id="50" pinned="true" x="742" y="305" />
+            <location camera_id="10" pinned="true" x="794" y="324" />
+            <location camera_id="70" pinned="true" x="764" y="252" />
+            <location camera_id="90" pinned="true" x="798" y="160" />
+          </marker>
+          <marker marker_id="66">
+            <location camera_id="109" pinned="true" x="731" y="422" />
+            <location camera_id="50" pinned="true" x="739" y="425" />
+            <location camera_id="10" pinned="true" x="731" y="443" />
+            <location camera_id="30" pinned="true" x="739" y="429" />
+            <location camera_id="90" pinned="true" x="764" y="398" />
+          </marker>
+          <marker marker_id="67">
+            <location camera_id="109" pinned="true" x="715" y="360" />
+            <location camera_id="50" pinned="true" x="720" y="358" />
+            <location camera_id="30" pinned="true" x="724" y="356" />
+            <location camera_id="70" pinned="true" x="723" y="357" />
+            <location camera_id="90" pinned="true" x="776" y="244" />
+          </marker>
+          <marker marker_id="68">
+            <location camera_id="109" pinned="true" x="109" y="442" />
+            <location camera_id="50" pinned="true" x="124" y="444" />
+            <location camera_id="10" pinned="true" x="240" y="454" />
+            <location camera_id="30" pinned="true" x="192" y="444" />
+            <location camera_id="70" pinned="true" x="59" y="437" />
+          </marker>
+          <marker marker_id="69">
+            <location camera_id="109" pinned="true" x="1190" y="346" />
+            <location camera_id="50" pinned="true" x="1194" y="348" />
+            <location camera_id="30" pinned="true" x="1071" y="384" />
+            <location camera_id="70" pinned="true" x="1247" y="335" />
+            <location camera_id="90" pinned="true" x="1351" y="315" />
+          </marker>
+          <marker marker_id="70">
+            <location camera_id="109" pinned="true" x="652" y="397" />
+            <location camera_id="50" pinned="true" x="661" y="397" />
+            <location camera_id="10" pinned="true" x="664" y="420" />
+            <location camera_id="30" pinned="true" x="667" y="404" />
+            <location camera_id="70" pinned="true" x="661" y="382" />
+            <location camera_id="90" pinned="true" x="658" y="363" />
+          </marker>
+          <marker marker_id="71">
+            <location camera_id="109" pinned="true" x="785" y="323" />
+            <location camera_id="50" pinned="true" x="795" y="326" />
+            <location camera_id="10" pinned="true" x="758" y="381" />
+            <location camera_id="70" pinned="true" x="832" y="280" />
+            <location camera_id="90" pinned="true" x="893" y="200" />
+          </marker>
+          <marker marker_id="72">
+            <location camera_id="109" pinned="true" x="748" y="323" />
+            <location camera_id="50" pinned="true" x="759" y="327" />
+            <location camera_id="10" pinned="true" x="733" y="382" />
+            <location camera_id="30" pinned="true" x="748" y="354" />
+            <location camera_id="70" pinned="true" x="785" y="281" />
+            <location camera_id="90" pinned="true" x="827" y="200" />
+          </marker>
+          <marker marker_id="73">
+            <location camera_id="109" pinned="true" x="1088" y="468" />
+            <location camera_id="50" pinned="true" x="1092" y="467" />
+            <location camera_id="30" pinned="true" x="1041" y="468" />
+            <location camera_id="70" pinned="true" x="1163" y="465" />
+            <location camera_id="90" pinned="true" x="1259" y="467" />
+          </marker>
+          <marker marker_id="74">
+            <location camera_id="109" pinned="true" x="756" y="410" />
+            <location camera_id="50" pinned="true" x="765" y="410" />
+            <location camera_id="30" pinned="true" x="758" y="417" />
+            <location camera_id="70" pinned="true" x="781" y="397" />
+            <location camera_id="90" pinned="true" x="799" y="383" />
+          </marker>
+          <marker marker_id="75">
+            <location camera_id="109" pinned="true" x="470" y="423" />
+            <location camera_id="50" pinned="true" x="484" y="422" />
+            <location camera_id="30" pinned="true" x="507" y="422" />
+            <location camera_id="70" pinned="true" x="468" y="416" />
+            <location camera_id="90" pinned="true" x="445" y="425" />
+          </marker>
+          <marker marker_id="76">
+            <location camera_id="109" pinned="true" x="966" y="829" />
+            <location camera_id="50" pinned="true" x="973" y="795" />
+            <location camera_id="10" pinned="true" x="968" y="807" />
+            <location camera_id="30" pinned="true" x="973" y="792" />
+            <location camera_id="90" pinned="true" x="968" y="793" />
+          </marker>
+        </markers>
+      </frame>
+    </frames>
+  </chunk>
+</document>

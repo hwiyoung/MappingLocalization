@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.5.0">
+  <chunk label="Merged Chunk" enabled="true">
+    <sensors next_id="4">
+      <sensor id="0" label="train_L" type="frame">
+        <resolution width="1384" height="1032"/>
+        <property name="pixel_width" value="0.00645"/>
+        <property name="pixel_height" value="0.00645"/>
+        <property name="focal_length" value="8.25"/>
+        <property name="fixed" value="true"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <data_type>uint8</data_type>
+        <calibration type="frame" class="initial">
+          <resolution width="1384" height="1032"/>
+          <f>1278.2700476188</f>
+          <cx>-10.21222021</cx>
+          <cy>12.57474453</cy>
+          <k1>-0.177596091505403</k1>
+          <k2>0.156810007534974</k2>
+          <k3>-0.080579883779856</k3>
+          <p1>0.000396898514249003</p1>
+          <p2>-8.50563182421899e-05</p2>
+        </calibration>
+      </sensor>
+      <sensor id="1" label="train_R" type="frame">
+        <resolution width="1384" height="1032"/>
+        <property name="pixel_width" value="0.00645"/>
+        <property name="pixel_height" value="0.00645"/>
+        <property name="focal_length" value="8.25"/>
+        <property name="fixed" value="true"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <calibration type="frame" class="initial">
+          <resolution width="1384" height="1032"/>
+          <f>1279.71039201197</f>
+          <cx>-6.272717931</cx>
+          <cy>-1.60870271</cy>
+          <k1>-0.184066204152112</k1>
+          <k2>0.204098997889525</k2>
+          <k3>-0.190930310380786</k3>
+          <p1>-0.000384022825200163</p1>
+          <p2>-7.83755478488317e-05</p2>
+        </calibration>
+      </sensor>
+      <sensor id="2" label="test_L" type="frame">
+        <resolution width="1384" height="1032"/>
+        <property name="pixel_width" value="0.00645"/>
+        <property name="pixel_height" value="0.00645"/>
+        <property name="focal_length" value="8.25"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <data_type>uint8</data_type>
+      </sensor>
+      <sensor id="3" label="test_R" type="frame">
+        <resolution width="1384" height="1032"/>
+        <property name="pixel_width" value="0.00645"/>
+        <property name="pixel_height" value="0.00645"/>
+        <property name="focal_length" value="8.25"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <data_type>uint8</data_type>
+      </sensor>
+    </sensors>
+    <cameras next_id="120" next_group_id="0">
+      <camera id="0" sensor_id="0" label="018864_L">
+        <reference x="365.98370342" y="354.49946406" z="7.93546007" yaw="12.54405108" pitch="87.76039273" roll="-0.33342134" enabled="true"/>
+      </camera>
+      <camera id="1" sensor_id="1" label="018864_R">
+        <reference x="366.47165921" y="354.39125594" z="7.93792175" yaw="12.66452257" pitch="88.15687493" roll="-0.5530932" enabled="true"/>
+      </camera>
+      <camera id="2" sensor_id="0" label="018865_L">
+        <reference x="366.09459548" y="354.89679085" z="7.93016352" yaw="13.59413783" pitch="87.84846809" roll="-0.30351854" enabled="true"/>
+      </camera>
+      <camera id="3" sensor_id="1" label="018865_R">
+        <reference x="366.58048759" y="354.77965878" z="7.9323649" yaw="13.71494628" pitch="88.24488964" roll="-0.52300502" enabled="true"/>
+      </camera>
+      <camera id="4" sensor_id="0" label="018866_L">
+        <reference x="366.21798067" y="355.30037221" z="7.92513296" yaw="14.77286339" pitch="87.94129679" roll="-0.2714407" enabled="true"/>
+      </camera>
+      <camera id="5" sensor_id="1" label="018866_R">
+        <reference x="366.7013617" y="355.17326996" z="7.92705509" yaw="14.89402669" pitch="88.33765286" roll="-0.49073123" enabled="true"/>
+      </camera>
+      <camera id="6" sensor_id="0" label="018867_L">
+        <reference x="366.34670222" y="355.68576772" z="7.92073444" yaw="15.98756738" pitch="88.03253255" roll="-0.2388067" enabled="true"/>
+      </camera>
+      <camera id="7" sensor_id="1" label="018867_R">
+        <reference x="366.82728136" y="355.54844724" z="7.92237245" yaw="16.10907916" pitch="88.42882153" roll="-0.4579041" enabled="true"/>
+      </camera>
+      <camera id="8" sensor_id="0" label="018868_L">
+        <reference x="366.4779865" y="356.05325655" z="7.91710398" yaw="17.15410272" pitch="88.11948413" roll="-0.20565143" enabled="true"/>
+      </camera>
+      <camera id="9" sensor_id="1" label="018868_R">
+        <reference x="366.95567142" y="355.90618106" z="7.91845331" yaw="17.27594633" pitch="88.51570443" roll="-0.42456425" enabled="true"/>
+      </camera>
+      <camera id="10" sensor_id="0" label="018869_L">
+        <reference x="366.614001" y="356.39271597" z="7.91497048" yaw="18.49563281" pitch="88.18644965" roll="-0.04078793" enabled="true"/>
+      </camera>
+      <camera id="11" sensor_id="1" label="018869_R">
+        <reference x="367.08811354" y="356.23449717" z="7.91488206" yaw="18.6177301" pitch="88.58231987" roll="-0.25955857" enabled="true"/>
+      </camera>
+      <camera id="12" sensor_id="0" label="018870_L">
+        <reference x="366.75463139" y="356.72115848" z="7.91322528" yaw="19.81011877" pitch="88.2478701" roll="0.12388673" enabled="true"/>
+      </camera>
+      <camera id="13" sensor_id="1" label="018870_R">
+        <reference x="367.2249876" y="356.55210636" z="7.91170071" yaw="19.93244942" pitch="88.6433892" roll="-0.09475327" enabled="true"/>
+      </camera>
+      <camera id="14" sensor_id="0" label="018871_L">
+        <reference x="366.89899279" y="357.03588021" z="7.91141204" yaw="21.12887335" pitch="88.29158683" roll="0.25474174" enabled="true"/>
+      </camera>
+      <camera id="15" sensor_id="1" label="018871_R">
+        <reference x="367.36532941" y="356.85604986" z="7.90874625" yaw="21.25137064" pitch="88.68682602" roll="0.03619485" enabled="true"/>
+      </camera>
+      <camera id="16" sensor_id="0" label="018872_L">
+        <reference x="367.05121662" y="357.33525759" z="7.90759289" yaw="22.64062866" pitch="88.26985597" roll="0.22629518" enabled="true"/>
+      </camera>
+      <camera id="17" sensor_id="1" label="018872_R">
+        <reference x="367.51264772" y="357.14318628" z="7.90517512" yaw="22.76304303" pitch="88.6651562" roll="0.0077019" enabled="true"/>
+      </camera>
+      <camera id="18" sensor_id="0" label="018873_L">
+        <reference x="367.20897021" y="357.62637021" z="7.9037202" yaw="24.13100714" pitch="88.24917423" roll="0.197699" enabled="true"/>
+      </camera>
+      <camera id="19" sensor_id="1" label="018873_R">
+        <reference x="367.6652506" y="357.42236186" z="7.90155175" yaw="24.25334261" pitch="88.64453572" roll="-0.02093838" enabled="true"/>
+      </camera>
+      <camera id="20" sensor_id="0" label="018874_L">
+        <reference x="367.36389742" y="357.8958166" z="7.89999186" yaw="25.53001448" pitch="88.23044318" roll="0.17037474" enabled="true"/>
+      </camera>
+      <camera id="21" sensor_id="1" label="018874_R">
+        <reference x="367.81506178" y="357.68072849" z="7.89806165" yaw="25.6522785" pitch="88.62586314" roll="-0.04830256" enabled="true"/>
+      </camera>
+      <camera id="22" sensor_id="0" label="018875_L">
+        <reference x="367.52863447" y="358.16293965" z="7.90183858" yaw="27.0893069" pitch="88.30041593" roll="0.18704064" enabled="true"/>
+      </camera>
+      <camera id="23" sensor_id="1" label="018875_R">
+        <reference x="367.97377865" y="357.93565511" z="7.89976343" yaw="27.21183786" pitch="88.6957998" roll="-0.03148723" enabled="true"/>
+      </camera>
+      <camera id="24" sensor_id="0" label="018876_L">
+        <reference x="367.69637997" y="358.41907677" z="7.90423768" yaw="28.61646781" pitch="88.3717613" roll="0.20699369" enabled="true"/>
+      </camera>
+      <camera id="25" sensor_id="1" label="018876_R">
+        <reference x="368.13530831" y="358.18001035" z="7.90198891" yaw="28.73927077" pitch="88.76710187" roll="-0.01138147" enabled="true"/>
+      </camera>
+      <camera id="26" sensor_id="0" label="018877_L">
+        <reference x="367.86538244" y="358.66292038" z="7.9069132" yaw="30.09626631" pitch="88.4403642" roll="0.22813552" enabled="true"/>
+      </camera>
+      <camera id="27" sensor_id="1" label="018877_R">
+        <reference x="368.29799015" y="358.41259947" z="7.90448044" yaw="30.21933066" pitch="88.83565875" roll="0.0099075" enabled="true"/>
+      </camera>
+      <camera id="28" sensor_id="0" label="018878_L">
+        <reference x="368.03743018" y="358.89903341" z="7.90806413" yaw="31.54024325" pitch="88.42681864" roll="0.22661832" enabled="true"/>
+      </camera>
+      <camera id="29" sensor_id="1" label="018878_R">
+        <reference x="368.46359255" y="358.63789039" z="7.90564452" yaw="31.66325601" pitch="88.82211659" roll="0.00836121" enabled="true"/>
+      </camera>
+      <camera id="30" sensor_id="0" label="018879_L">
+        <reference x="368.21210218" y="359.12823149" z="7.90580164" yaw="32.94274077" pitch="88.28073703" roll="0.18337198" enabled="true"/>
+      </camera>
+      <camera id="31" sensor_id="1" label="018879_R">
+        <reference x="368.631746" y="358.85673418" z="7.90375837" yaw="33.06519668" pitch="88.67612889" roll="-0.03519794" enabled="true"/>
+      </camera>
+      <camera id="32" sensor_id="0" label="018880_L">
+        <reference x="368.40061092" y="359.36314819" z="7.90267894" yaw="34.40856372" pitch="88.12922635" roll="0.13436183" enabled="true"/>
+      </camera>
+      <camera id="33" sensor_id="1" label="018880_R">
+        <reference x="368.81317297" y="359.08100312" z="7.90106226" yaw="34.53044133" pitch="88.52472355" roll="-0.08453104" enabled="true"/>
+      </camera>
+      <camera id="34" sensor_id="0" label="018881_L">
+        <reference x="368.58978623" y="359.5870718" z="7.89890381" yaw="35.83505359" pitch="87.98301849" roll="0.08295603" enabled="true"/>
+      </camera>
+      <camera id="35" sensor_id="1" label="018881_R">
+        <reference x="368.99519695" y="359.29474205" z="7.89773465" yaw="35.95637245" pitch="88.37862511" roll="-0.13624702" enabled="true"/>
+      </camera>
+      <camera id="36" sensor_id="0" label="018882_L">
+        <reference x="368.78677233" y="359.80834201" z="7.89557026" yaw="37.31221021" pitch="87.88382885" roll="0.08646204" enabled="true"/>
+      </camera>
+      <camera id="37" sensor_id="1" label="018882_R">
+        <reference x="369.184512" y="359.505658" z="7.8943699" yaw="37.43314938" pitch="88.27942812" roll="-0.13295071" enabled="true"/>
+      </camera>
+      <camera id="38" sensor_id="0" label="018883_L">
+        <reference x="368.98252585" y="360.01716902" z="7.89223844" yaw="38.74960962" pitch="87.80120927" roll="0.10447601" enabled="true"/>
+      </camera>
+      <camera id="39" sensor_id="1" label="018883_R">
+        <reference x="369.37254691" y="359.70460281" z="7.89088043" yaw="38.8702322" pitch="88.19677067" roll="-0.11511095" enabled="true"/>
+      </camera>
+      <camera id="40" sensor_id="0" label="018884_L">
+        <reference x="369.1911576" y="360.22863427" z="7.88833661" yaw="40.24144886" pitch="87.71501239" roll="0.12097409" enabled="true"/>
+      </camera>
+      <camera id="41" sensor_id="1" label="018884_R">
+        <reference x="369.57290818" y="359.90601973" z="7.88683414" yaw="40.36174089" pitch="88.11053931" roll="-0.09879412" enabled="true"/>
+      </camera>
+      <camera id="42" sensor_id="0" label="018885_L">
+        <reference x="369.39797399" y="360.4271076" z="7.88421742" yaw="41.69735691" pitch="87.67174657" roll="0.14018577" enabled="true"/>
+      </camera>
+      <camera id="43" sensor_id="1" label="018885_R">
+        <reference x="369.77140383" y="360.09489793" z="7.88254709" yaw="41.81748288" pitch="88.06723333" roll="-0.07967326" enabled="true"/>
+      </camera>
+      <camera id="44" sensor_id="0" label="018886_L">
+        <reference x="369.62224413" y="360.62720584" z="7.88067446" yaw="43.31638778" pitch="87.85434811" roll="0.19319061" enabled="true"/>
+      </camera>
+      <camera id="45" sensor_id="1" label="018886_R">
+        <reference x="369.98613845" y="360.28458027" z="7.87854288" yaw="43.43721373" pitch="88.24972233" roll="-0.02628457" enabled="true"/>
+      </camera>
+      <camera id="46" sensor_id="0" label="018887_L">
+        <reference x="369.84741767" y="360.81707098" z="7.87809501" yaw="44.90275503" pitch="88.0317625" roll="0.25011588" enabled="true"/>
+      </camera>
+      <camera id="47" sensor_id="1" label="018887_R">
+        <reference x="370.20168666" y="360.4645054" z="7.87546796" yaw="45.02426" pitch="88.4270146" roll="0.03101575" enabled="true"/>
+      </camera>
+      <camera id="48" sensor_id="0" label="018888_L">
+        <reference x="370.07582114" y="360.99912613" z="7.87639896" yaw="46.47569589" pitch="88.2060726" roll="0.311394" enabled="true"/>
+      </camera>
+      <camera id="49" sensor_id="1" label="018888_R">
+        <reference x="370.42027772" y="360.63697205" z="7.87323845" yaw="46.597867" pitch="88.60119202" roll="0.09266439" enabled="true"/>
+      </camera>
+      <camera id="50" sensor_id="0" label="018889_L">
+        <reference x="370.312049" y="361.17585094" z="7.87463305" yaw="48.11588912" pitch="88.34903475" roll="0.27468638" enabled="true"/>
+      </camera>
+      <camera id="51" sensor_id="1" label="018889_R">
+        <reference x="370.64600067" y="360.8039852" z="7.87179364" yaw="48.23860552" pitch="88.74423053" roll="0.05626237" enabled="true"/>
+      </camera>
+      <camera id="52" sensor_id="0" label="018890_L">
+        <reference x="370.55215929" y="361.34404755" z="7.87289648" yaw="49.78490275" pitch="88.46955221" roll="0.16369283" enabled="true"/>
+      </camera>
+      <camera id="53" sensor_id="1" label="018890_R">
+        <reference x="370.8751421" y="360.96261013" z="7.87102606" yaw="49.9080783" pitch="88.86498501" roll="-0.05447232" enabled="true"/>
+      </camera>
+      <camera id="54" sensor_id="0" label="018891_L">
+        <reference x="370.80157749" y="361.50804673" z="7.87182723" yaw="51.48455631" pitch="88.59553356" roll="0.05433277" enabled="true"/>
+      </camera>
+      <camera id="55" sensor_id="1" label="018891_R">
+        <reference x="371.11310711" y="361.11719592" z="7.87091159" yaw="51.60821172" pitch="88.99120163" roll="-0.16356076" enabled="true"/>
+      </camera>
+      <camera id="56" sensor_id="0" label="018892_L">
+        <reference x="371.06205523" y="361.66832504" z="7.87147854" yaw="53.22621043" pitch="88.72791561" roll="-0.05378752" enabled="true"/>
+      </camera>
+      <camera id="57" sensor_id="1" label="018892_R">
+        <reference x="371.36156316" y="361.26818644" z="7.87150692" yaw="53.35036983" pitch="89.12381815" roll="-0.27139451" enabled="true"/>
+      </camera>
+      <camera id="58" sensor_id="0" label="018893_L">
+        <reference x="371.31919349" y="361.82826309" z="7.87147579" yaw="54.94063071" pitch="88.73518161" roll="-0.09564117" enabled="true"/>
+      </camera>
+      <camera id="59" sensor_id="1" label="018893_R">
+        <reference x="371.60659603" y="361.41934314" z="7.87186932" yaw="55.06481818" pitch="89.13117492" roll="-0.31323232" enabled="true"/>
+      </camera>
+      <camera id="60" sensor_id="0" label="018894_L">
+        <reference x="371.57732566" y="361.97879281" z="7.87150292" yaw="56.63202903" pitch="88.73916782" roll="-0.13466528" enabled="true"/>
+      </camera>
+      <camera id="61" sensor_id="1" label="018894_R">
+        <reference x="371.85253304" y="361.56156834" z="7.8722369" yaw="56.75623212" pitch="89.13524577" roll="-0.3522477" enabled="true"/>
+      </camera>
+      <camera id="62" sensor_id="0" label="018895_L">
+        <reference x="371.83910772" y="362.12128036" z="7.87156761" yaw="58.31908118" pitch="88.74428946" roll="-0.17345487" enabled="true"/>
+      </camera>
+      <camera id="63" sensor_id="1" label="018895_R">
+        <reference x="372.10191228" y="361.69613507" z="7.87264" yaw="58.44330426" pitch="89.14045158" roll="-0.39102609" enabled="true"/>
+      </camera>
+      <camera id="64" sensor_id="0" label="018896_L">
+        <reference x="372.11909794" y="362.26289644" z="7.8708793" yaw="60.08193803" pitch="88.72154551" roll="-0.12013245" enabled="true"/>
+      </camera>
+      <camera id="65" sensor_id="1" label="018896_R">
+        <reference x="372.3686997" y="361.829867" z="7.87148639" yaw="60.206074" pitch="89.11759174" roll="-0.33775309" enabled="true"/>
+      </camera>
+      <camera id="66" sensor_id="0" label="018897_L">
+        <reference x="372.39731747" y="362.39317738" z="7.86938505" yaw="61.79814969" pitch="88.67461996" roll="0.00155925" enabled="true"/>
+      </camera>
+      <camera id="67" sensor_id="1" label="018897_R">
+        <reference x="372.63383819" y="361.95286653" z="7.86893028" yaw="61.92210612" pitch="89.07040231" roll="-0.21616327" enabled="true"/>
+      </camera>
+      <camera id="68" sensor_id="0" label="018898_L">
+        <reference x="372.67917826" y="362.51501452" z="7.86758612" yaw="63.51366002" pitch="88.62409533" roll="0.12173497" enabled="true"/>
+      </camera>
+      <camera id="69" sensor_id="1" label="018898_R">
+        <reference x="372.90241019" y="362.067822" z="7.86608268" yaw="63.6374237" pitch="89.01961784" roll="-0.09609705" enabled="true"/>
+      </camera>
+      <camera id="70" sensor_id="0" label="018899_L">
+        <reference x="372.96062449" y="362.62488473" z="7.86581896" yaw="65.16993631" pitch="88.57795229" roll="0.21221847" enabled="true"/>
+      </camera>
+      <camera id="71" sensor_id="1" label="018899_R">
+        <reference x="373.17083618" y="362.17142945" z="7.86352592" yaw="65.29352435" pitch="88.97327977" roll="-0.00571337" enabled="true"/>
+      </camera>
+      <camera id="72" sensor_id="0" label="018900_L">
+        <reference x="373.25041531" y="362.71984155" z="7.86532287" yaw="66.69491219" pitch="88.56274097" roll="0.18263554" enabled="true"/>
+      </camera>
+      <camera id="73" sensor_id="1" label="018900_R">
+        <reference x="373.4484852" y="362.2609515" z="7.86328779" yaw="66.81844239" pitch="88.95813237" roll="-0.03532903" enabled="true"/>
+      </camera>
+      <camera id="74" sensor_id="0" label="018901_L">
+        <reference x="373.553683" y="362.81018565" z="7.86474252" yaw="68.277324" pitch="88.54779482" roll="0.15152159" enabled="true"/>
+      </camera>
+      <camera id="75" sensor_id="1" label="018901_R">
+        <reference x="373.73900548" y="362.34599994" z="7.86297877" yaw="68.40079739" pitch="88.94325338" roll="-0.06647512" enabled="true"/>
+      </camera>
+      <camera id="76" sensor_id="0" label="018902_L">
+        <reference x="373.85873758" y="362.89197045" z="7.86410159" yaw="69.85667078" pitch="88.53373994" roll="0.12006798" enabled="true"/>
+      </camera>
+      <camera id="77" sensor_id="1" label="018902_R">
+        <reference x="374.0311963" y="362.42285248" z="7.86261213" yaw="69.98009079" pitch="88.92926632" roll="-0.09795894" enabled="true"/>
+      </camera>
+      <camera id="78" sensor_id="0" label="018903_L">
+        <reference x="374.16714755" y="362.97031633" z="7.86170992" yaw="71.26141003" pitch="88.46639538" roll="0.02908021" enabled="true"/>
+      </camera>
+      <camera id="79" sensor_id="1" label="018903_R">
+        <reference x="374.32805414" y="362.49710973" z="7.86101376" yaw="71.38457418" pitch="88.86211756" roll="-0.18909141" enabled="true"/>
+      </camera>
+      <camera id="80" sensor_id="0" label="018904_L">
+        <reference x="374.47899005" y="363.04291094" z="7.8584596" yaw="72.62175171" pitch="88.38566217" roll="-0.08098897" enabled="true"/>
+      </camera>
+      <camera id="81" sensor_id="1" label="018904_R">
+        <reference x="374.62861679" y="362.56601717" z="7.85872311" yaw="72.74460933" pitch="88.78162013" roll="-0.29933367" enabled="true"/>
+      </camera>
+      <camera id="82" sensor_id="0" label="018905_L">
+        <reference x="374.79278952" y="363.10813726" z="7.85481675" yaw="73.98334595" pitch="88.30748526" roll="-0.19306007" enabled="true"/>
+      </camera>
+      <camera id="83" sensor_id="1" label="018905_R">
+        <reference x="374.93104104" y="362.62782395" z="7.85605742" yaw="74.10590701" pitch="88.70368214" roll="-0.41157194" enabled="true"/>
+      </camera>
+      <camera id="84" sensor_id="0" label="018906_L">
+        <reference x="375.12033077" y="363.16985821" z="7.85001105" yaw="75.31122129" pitch="88.20372236" roll="-0.29470737" enabled="true"/>
+      </camera>
+      <camera id="85" sensor_id="1" label="018906_R">
+        <reference x="375.24741299" y="362.68647276" z="7.85213778" yaw="75.43338817" pitch="88.60013413" roll="-0.51344061" enabled="true"/>
+      </camera>
+      <camera id="86" sensor_id="0" label="018907_L">
+        <reference x="375.44701569" y="363.22517852" z="7.84418332" yaw="76.56718004" pitch="88.08433953" roll="-0.38600392" enabled="true"/>
+      </camera>
+      <camera id="87" sensor_id="1" label="018907_R">
+        <reference x="375.56347029" y="362.7391274" z="7.84710571" yaw="76.68889278" pitch="88.4809423" roll="-0.60499103" enabled="true"/>
+      </camera>
+      <camera id="88" sensor_id="0" label="018908_L">
+        <reference x="375.78450264" y="363.27461769" z="7.83751443" yaw="77.85997238" pitch="87.96355746" roll="-0.48270137" enabled="true"/>
+      </camera>
+      <camera id="89" sensor_id="1" label="018908_R">
+        <reference x="375.88995941" y="362.78606821" z="7.84127958" yaw="77.98122553" pitch="88.36036115" roll="-0.70194434" enabled="true"/>
+      </camera>
+      <camera id="90" sensor_id="0" label="018909_L">
+        <reference x="376.123718" y="363.31918475" z="7.83171956" yaw="79.02982842" pitch="87.89619547" roll="-0.5074071" enabled="true"/>
+      </camera>
+      <camera id="91" sensor_id="1" label="018909_R">
+        <reference x="376.21917753" y="362.82858559" z="7.8356998" yaw="79.15082436" pitch="88.29304883" roll="-0.72679242" enabled="true"/>
+      </camera>
+      <camera id="92" sensor_id="0" label="018910_L">
+        <reference x="376.4660241" y="363.36190518" z="7.82817907" yaw="80.00882955" pitch="87.90943995" roll="-0.41435193" enabled="true"/>
+      </camera>
+      <camera id="93" sensor_id="1" label="018910_R">
+        <reference x="376.55308845" y="362.86974091" z="7.83134766" yaw="80.12987387" pitch="88.30609721" roll="-0.63370948" enabled="true"/>
+      </camera>
+      <camera id="94" sensor_id="0" label="018911_L">
+        <reference x="376.82094334" y="363.39995352" z="7.82455949" yaw="81.02182814" pitch="87.92146876" roll="-0.3178385" enabled="true"/>
+      </camera>
+      <camera id="95" sensor_id="1" label="018911_R">
+        <reference x="376.8992938" y="362.90632239" z="7.82688624" yaw="81.14291643" pitch="88.31792244" roll="-0.53717085" enabled="true"/>
+      </camera>
+      <camera id="96" sensor_id="0" label="018912_L">
+        <reference x="377.17730322" y="363.43468482" z="7.81960381" yaw="81.92200843" pitch="87.8812617" roll="-0.2645634" enabled="true"/>
+      </camera>
+      <camera id="97" sensor_id="1" label="018912_R">
+        <reference x="377.2478888" y="362.93988172" z="7.82146558" yaw="82.04294176" pitch="88.27760187" roll="-0.48398079" enabled="true"/>
+      </camera>
+      <camera id="98" sensor_id="0" label="018913_L">
+        <reference x="377.54520456" y="363.47006402" z="7.81167627" yaw="82.6579396" pitch="87.75507001" roll="-0.28354594" enabled="true"/>
+      </camera>
+      <camera id="99" sensor_id="1" label="018913_R">
+        <reference x="377.60942798" y="362.97439563" z="7.81370284" yaw="82.77838971" pitch="88.15144721" roll="-0.5032291" enabled="true"/>
+      </camera>
+      <camera id="100" sensor_id="2" label="040_L"/>
+      <camera id="110" sensor_id="3" label="040_R"/>
+      <camera id="101" sensor_id="2" label="041_L"/>
+      <camera id="111" sensor_id="3" label="041_R"/>
+      <camera id="102" sensor_id="2" label="042_L"/>
+      <camera id="112" sensor_id="3" label="042_R"/>
+      <camera id="103" sensor_id="2" label="043_L"/>
+      <camera id="113" sensor_id="3" label="043_R"/>
+      <camera id="104" sensor_id="2" label="044_L"/>
+      <camera id="114" sensor_id="3" label="044_R"/>
+      <camera id="105" sensor_id="2" label="045_L"/>
+      <camera id="115" sensor_id="3" label="045_R"/>
+      <camera id="106" sensor_id="2" label="046_L"/>
+      <camera id="116" sensor_id="3" label="046_R"/>
+      <camera id="107" sensor_id="2" label="047_L"/>
+      <camera id="117" sensor_id="3" label="047_R"/>
+      <camera id="108" sensor_id="2" label="048_L"/>
+      <camera id="118" sensor_id="3" label="048_R"/>
+      <camera id="109" sensor_id="2" label="049_L"/>
+      <camera id="119" sensor_id="3" label="049_R"/>
+    </cameras>
+    <reference>LOCAL_CS["Local Coordinates (m)",LOCAL_DATUM["Local Datum",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</reference>
+    <settings>
+      <property name="accuracy_tiepoints" value="1"/>
+      <property name="accuracy_cameras" value="0.001"/>
+      <property name="accuracy_cameras_ypr" value="0.01"/>
+      <property name="accuracy_markers" value="0.005"/>
+      <property name="accuracy_scalebars" value="0.001"/>
+      <property name="accuracy_projections" value="0.1"/>
+    </settings>
+  </chunk>
+</document>
